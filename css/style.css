@@ -28,8 +28,7 @@ body {
 }
 
 .main {
-    background-image: url(/img/Black-texture-test.jpg);
-    background-color: rgb(124, 122, 122);
+    background-color: #212121;
     height: 900px;
     position: relative;
 }
@@ -544,12 +543,20 @@ a {
 
 .about {
     min-height: 730px;
-    background-image: url(/img/about-bg.jpg);
+    background-color: #212121;
+    position: relative;
+}
+
+.about__texture{
+    position: absolute;
+    left: 10%;
+    bottom: 50px;
 }
 
 .about-img {
     margin-top: 30px;
     margin-left: -50px;
+    z-index: 2;
 }
 
 .about__info-inner {
@@ -600,11 +607,22 @@ a {
 
 
 .service {
-    background-image: url(/img/service-bg.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-color: #f5f5f5;
     min-height: 870px;
+    position: relative;
+}
+
+.service__left-texture{
+    position: absolute;
+    top: 15%;
+    left: 5%;
+}
+
+.service__right-texture{
+    position: absolute;
+    right: 0;
 }
 
 .service__title {
@@ -684,12 +702,19 @@ a {
 }
 
 .tools {
-    background-image: url(/img/tools-bg.jpg);
+    background-color: #292829;
     min-height: 375px;
+    position: relative;
+}
+
+.tools-texture{
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 
 .testimonials {
-    background-image: url(/img/testimonials-bg.jpg);
+    position: relative;
     min-height: 825px;
     position: relative;
     margin-bottom: 90px;
@@ -698,6 +723,11 @@ a {
     background-color: #ffffff;
 }
 
+.testimonials-texture{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
 
 .slider {
     max-width: 1000px;
@@ -756,10 +786,17 @@ a {
 }
 
 .contacts {
-    background-image: url('/img/contacts-bg.jpg');
+    position: relative;
+    background-color: #292829;
     min-height: 600px;
     background-position: center 0;
     color: white;
+}
+
+.contacts-texture{
+    position: absolute;
+    top: 80px;
+    left: 10%;
 }
 
 
