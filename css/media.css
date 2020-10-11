@@ -1,0 +1,238 @@
+@media (max-width: 1660px) {
+
+    .test {
+        display: none;
+    }
+}
+
+@media (max-width: 1360px) {
+    .header__language_switcher {
+        margin-right: 40%;
+    }
+
+    #header {
+        height: 130px;
+    }
+}
+
+@media (max-width: 995px) {
+    .main__title {
+        font-size: 72px !important;
+        text-align: center;
+    }
+
+    .main__subtitle {
+        text-align: center;
+        font-size: 28px !important;
+    }
+
+    .main__offer {
+        display: flex;
+        align-items: center;
+    }
+
+    .button,
+    .button-submit {
+        font-size: 20px;
+        width: 170px !important;
+        height: 70px !important;
+    }
+}
+
+@media (min-width: 315px) and (max-width: 890px) {
+    footer
+    {
+        font-size: 13px;
+    }
+    
+    .main__title {
+        font-size: 58px !important;
+        line-height: 58px;
+    }
+
+    .main__subtitle {
+        padding: 20px 0px;
+        font-size: 17px !important;
+    }
+
+    #header__logo {
+        display: none !important;
+    }
+
+    #nokey {
+        min-width: 320px;
+        height: 850px !important;
+    }
+
+    .small {
+        padding-top: 10px;
+        height: 70px !important;
+    }
+
+    #menu {
+        width: 700px !important;
+        left: -10px !important;
+    }
+
+    .main {
+        height: 850px !important;
+    }
+
+    .main__offer {
+        height: 850px;
+    }
+
+    /*фильтры*/
+
+
+    .filters {
+        text-align: left !important;
+        border: none !important;
+    }
+
+    .filters li {
+        border: none !important;
+        margin: 0px !important;
+        padding: 10px 0px !important;
+    }
+
+    .filter {
+        flex-direction: column;
+        align-items: flex-start;
+        border: none;
+        text-align: left;
+    }
+
+    .products {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .filters li:last-child {
+        border-bottom: 1px solid black !important;
+    }
+
+    .products li {
+        padding: 0px !important;
+    }
+
+    .filter li {
+        border: none;
+        padding: 30px 0px !important;
+    }
+
+    .filter button {
+        padding: 0px;
+    }
+
+    .protfolio__title {
+        font-size: 46px;
+    }
+
+    .portfolio {
+        background-image: url();
+    }
+
+    .grid-item {
+        padding: 0px;
+    }
+
+    /*обо мне*/
+
+    .about-img {
+        display: none;
+    }
+
+    .about__counter-inner {
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+
+    .about__counter-inner {
+        height: 400px;
+    }
+
+
+    .tools__item {
+        margin-bottom: 40px !important;
+    }
+
+    .filters {
+        text-align: center !important;
+    }
+
+    .filters li:last-child {
+        border-bottom: 0px !important;
+        border-left: 1px solid #000 !important;
+        padding-left: 15px !important;
+    }
+
+    .filters li:first-child {
+        padding-right: 15px !important;
+    }
+
+    .counter-item-3 {
+        margin-bottom: 40px !important;
+    }
+
+    .srivice__item{ 
+        margin-bottom: 30px!important;
+    }
+
+
+    .srivice__item:hover .service__icon img:last-child {
+        opacity: 0 !important;
+    }
+
+    .slider {
+        width: 100% !important;
+    }
+
+    .service  .service__title {
+        font-size: 60px !important;
+    }
+
+    .service__title {
+        font-size: 32px !important;
+    }
+
+    .contacts {
+        min-height: 700px !important;
+    }
+
+    .social-icons-inner1 {
+        margin: 60px 0px;
+    }
+
+    .contacts__text {
+        margin: 20px 0px;
+    }
+
+    .contacts .white-title {
+        font-size: 48px!important;;
+    }
+
+    .about {
+        background-position: bottom!important;
+    }
+
+    .service {
+        background-position: right;
+    }
+    
+}
+
+@media (min-width: 315px) and (max-width: 390px) {
+
+    .contacts__mail::before,
+    .contacts__number::before {
+        display: none;
+    }
+
+    .contacts__mail,
+    .contacts__number {
+        font-size: 18px;
+        padding: 0px !important;
+    }
+
+}

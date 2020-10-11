@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/animate.css">
+    <link rel="stylesheet" href="/css/slick.css">
+    <link rel="stylesheet" href="/css/icons.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="shortcut icon" href="/img/Logo_3.png" type="image/x-icon">
+    <title>Black Cat Studio</title>
+    <meta property="og:image" content="/img/For_site.png" />
+    <meta name="yandex-verification" content="b77b411f7b691b53" />
+    <meta name="google-site-verification" content="i0a9pW24MFC7_uQt-nvvzjP-eue9crqAUR_e7Q9eVCA" />
+    <link rel="stylesheet" href="/css/media.css">
+</head>
+
+<body>
+    <header id="header" class="header wow slideInDown" data-wow-delay="1.6s">
+        <div class="container">
+            <div class="header__menu d-flex">
+                <a href="#1">
+                    <div id="header__logo" class="header__logo d-flex">
+                        <img src="/img/Logo_3.svg" alt="logo">
+                        <div id="header__logo-text" class="header__logo-text">
+                            BlackCat</br>Studio
+                        </div>
+                    </div>
+                </a>
+                <div id="header__language_switcher" class="header__language_switcher d-flex ml-auto">
+                    <div>
+                        <input class="radio" type="radio" id="radio01" name="radio" checked="checked"
+                            class="lang-show" />
+                        <label for="radio01"><span>Eng</span></label>
+                    </div>
+                    <div>
+                        <input class="radio" type="radio" id="radio02" name="radio" />
+                        <label for="radio02"><span>Ru</span></label>
+                    </div>
+                </div>
+
+                <a id="hamburger-shell" class="hamburger-shell">
+                    <div class="hamb top"></div>
+                    <div class="hamb middle"></div>
+                    <ul id="menu" class="">
+                        <a href="#1">
+                            <li>
+                                <span class="eng-text">home</span>
+                                <span class="rus-text lang-hide">главная</span>
+                            </li>
+                        </a>
+                        <a href="#2">
+                            <li>
+                                <span class="eng-text">portfolio</span>
+                                <span class="rus-text lang-hide">портфолио</span>
+                            </li>
+                        </a>
+                        <a href="#3">
+                            <li>
+                                <span class="eng-text">about me</span>
+                                <span class="rus-text lang-hide">обо мне</span>
+                            </li>
+                        </a>
+                        <a href="#4">
+                            <li>
+                                <span class="eng-text">service</span>
+                                <span class="rus-text lang-hide">услуги</span>
+                            </li>
+                        </a>
+                        <a href="#5">
+                            <li>
+                                <span class="eng-text">testimonials</span>
+                                <span class="rus-text lang-hide">отзывы</span>
+                            </li>
+                        </a>
+                        <a href="#6">
+                            <li>
+                                <span class="eng-text">contacts</span>
+                                <span class="rus-text lang-hide">котакты</span>
+                            </li>
+                        </a>
+                        <div class="social-icons-inner mt-3 d-flex justify-content-around">
+                            <a href="https://join.skype.com/invite/ntMLraMbVbUI" target="_blank"> </a>
+                            <a href="https://www.facebook.com/andriasbartlett" target="_blank"> </a>
+                            <a href="https://www.youtube.com/c/BlackCatStudioMusic" target="_blank"> </a>
+                            <a href="https://soundcloud.com/blackcatmusicstudio" target="_blank"> </a>
+                            <a href="https://vk.com/blackcatmusicstudio" target="_blank"></a>
+                            <a href="https://www.instagram.com/black_cat_music_studio" target="_blank"></a>
+                        </div>
+                    </ul>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section id="1" class="main">
+        <canvas id="nokey" width="1920">
+        </canvas>
+        <div class="container">
+            <div class="row">
+                <div class="main__offer d-flex flex-column justify-content-center">
+                    <div class="main__title wow zoomInRight" data-wow-delay="1.6s">
+                        <span class="eng-text">create your sound</span>
+                        <span class="rus-text lang-hide">создай свой звук</span>
+                    </div>
+                    <div class="main__subtitle wow zoomInRight" data-wow-delay="1.8s">
+                        <span class="eng-text ">VIDEOGAMES | TRAILERS | FILMS</span>
+                        <span class="rus-text lang-hide">игры | трейлеры | фильмы</span>
+                    </div>
+                    <a href="#2">
+                        <button class="button pr-3 wow rubberBand" data-wow-delay="3s">
+                            <span class="eng-text">Listen</span>
+                            <span class="rus-text lang-hide">Слушать</span>
+                            <span class="icon-play2"></span>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <img class="test wow flip" data-wow-delay="1.4s" src="/img/test.png" alt="">
+    </section>
+    <section id="2" class="portfolio">
+        <div class="container">
+
+            <div class="protfolio__title text-center col-xs-12">
+                <span class="eng-text">portfolio</span>
+                <span class="rus-text lang-hide">портфолио</span>
+            </div>
+
+            <!-- фильтр разделов -->
+            <div class="portfolio__filters-inner">
+                <ul class="filters text-center">
+
+                    <li class="active">
+                        <a data-filter="music">
+                            <span class="eng-text">music</span>
+                            <span class="rus-text lang-hide">музыка</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a data-filter="sound">
+                            <span class="eng-text">sound design </span>
+                            <span class="rus-text lang-hide">саунд дизайн</span>
+                        </a>
+                    </li>
+                </ul>
+                <!-- фильтр подразделов музыки -->
+                <ul class="products d-flex justify-content-center">
+                    <div class="filter d-flex justify-content-center flex-wrap">
+                        <li data-filter="music" class="active">
+                            <button data-name=".music">
+                                <span class="eng-text">all</span>
+                                <span class="rus-text lang-hide">все</span>
+                            </button>
+                        </li>
+
+                        <li data-filter="music">
+                            <button data-name=".trailer">
+                                <span class="eng-text">trailer</span>
+                                <span class="rus-text lang-hide">трейлер</span>
+                            </button>
+                        </li>
+
+                        <li data-filter="music">
+                            <button data-name=".orchestral">
+                                <span class="eng-text">orchestral</span>
+                                <span class="rus-text lang-hide">оркестровая</span>
+                            </button>
+                        </li>
+
+                        <li data-filter="music">
+                            <button data-name=".neoclassic">
+                                <span class="eng-text">neoclassic</span>
+                                <span class="rus-text lang-hide">неоклассика</span>
+                            </button>
+                        </li>
+
+                        <li data-filter="music">
+                            <button data-name=".abmbient">
+                                <span class="eng-text">ambient</span>
+                                <span class="rus-text lang-hide">эмбиент</span>
+                            </button>
+                        </li>
+
+                        <li data-filter="music">
+                            <button data-name=".sci">
+                                <span class="eng-text">sci-fi</span>
+                                <span class="rus-text lang-hide">sci-fi</span>
+                            </button>
+                        </li>
+
+                        <li data-filter="music">
+                            <button data-name=".casual">
+                                <span class="eng-text">Casual</span>
+                                <span class="rus-text lang-hide">Казуал</span>
+                            </button>
+                        </li>
+                    </div>
+
+                    <!-- фильтр подразделов звуков -->
+                    <div class="filter d-flex justify-content-center">
+
+                        <li data-filter="sound" class="lang-hide">
+                            <button id="all" data-name=".video">
+                                <span class="eng-text">All</span>
+                                <span class="rus-text lang-hide">все</span>
+                            </button>
+                        </li>
+
+                        <li data-filter="sound">
+                            <button data-name=".commercial">
+                                <span class="eng-text">Сommercial</span>
+                                <span class="rus-text lang-hide">видео</span>
+                            </button>
+                        </li>
+
+                        <li data-filter="sound">
+                            <button data-name=".platformer">
+                                <span class="eng-text">platformer</span>
+                                <span class="rus-text lang-hide">платформер</span>
+                            </button>
+                        </li>
+
+                        <li data-filter="sound">
+                            <button data-name=".puzzle">
+                                <span class="eng-text">puzzle</span>
+                                <span class="rus-text lang-hide">головоломка</span>
+                            </button>
+                        </li>
+
+                        <li data-filter="sound">
+                            <button data-name=".action">
+                                <span class="eng-text">action</span>
+                                <span class="rus-text lang-hide">экшн</span>
+                            </button>
+                        </li>
+
+                        <li data-filter="sound">
+                            <button data-name=".mobile">
+                                <span class="eng-text">mobile</span>
+                                <span class="rus-text lang-hide">мобаил</span>
+                            </button>
+                        </li>
+
+                        <li data-filter="sound">
+                            <button data-name=".strategy">
+                                <span class="eng-text">strategy</span>
+                                <span class="rus-text lang-hide">стратегия</span>
+                            </button>
+                        </li>
+                    </div>
+
+                </ul>
+            </div>
+        </div>
+
+        <div class="portfolio__music-content mt-5">
+            <div class="container">
+                <div class="grid" id="grid">
+                    <div class="row">
+                        <div class="grid-item col-lg-6 music casual">
+                            <iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay"
+                                src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1142730757&color=%23673ab7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=false"></iframe>
+                        </div>
+                        <div class="grid-item col-lg-6 music sci" id="grid-item">
+                            <iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay"
+                                src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1010498329&color=%23673ab7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=false"></iframe>
+                        </div>
+                        <div class="grid-item col-lg-6 music trailer" id="grid-item">
+                            <iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay"
+                                src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/978648493&color=%23673ab7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=false"></iframe>
+                        </div>
+                        <div class="grid-item col-lg-6 music trailer" id="grid-item">
+                            <iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay"
+                                src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/978651526&color=%23673ab7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=false"></iframe>
+                        </div>
+                        <div class="grid-item col-lg-6 music neoclassic">
+                            <iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay"
+                                src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/978651193&color=%23673ab7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=false"></iframe>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="grid-item col-lg-6 music orchestral" id="grid-item">
+                            <iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay"
+                                src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/978649405&color=%23673ab7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=false"></iframe>
+                        </div>
+                        <div class="grid-item col-lg-6 music abmbient" id="grid-item">
+                            <iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay"
+                                src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/975172579&color=%23673ab7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=false"></iframe>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="grid-item video platformer col-lg-6">
+                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/Lvuy2BVc4nA"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="grid-item video mobile col-lg-6">
+                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/ghQB0kGE-uU"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="grid-item video strategy col-lg-6">
+                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/GsIRUdKxTWU"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="grid-item video platformer col-lg-6">
+                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/7Ked1WxiCFY"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="grid-item video action col-lg-6">
+                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/ObQtUAXXuKw"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="grid-item video puzzle col-lg-6">
+                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/Q-nGJVN_RIg"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="grid-item video commercial col-lg-6">
+                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/8NtolDMhjC4"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="grid-item video platformer col-lg-6">
+                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/y_TF2aXiem4"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="3" class="about">
+        <div class="container">
+            <div class=" text-center white-title">
+                <span class="eng-text">about me</span>
+                <span class="rus-text lang-hide">обо мне</span>
+            </div>
+            <div class="about__inner d-flex">
+                <div class="about-img">
+                    <img src="/img/about-img.png" alt="">
+                </div>
+                <div class="about__info-inner col-lg-7">
+                    <div class="about__sup-title">
+                        <span class="eng-text">Some history</span>
+                        <span class="rus-text lang-hide">Немного истории.</span>
+                    </div>
+                    <div class="about__text">
+
+                        <span class="eng-text">
+                            Hello! My name is Andrias and I fill the silence with sounds and music. I create
+                            compositions for every task, putting a part of my soul, effort and love into each one. I
+                            have experience in writing music for advertising, games, documentaries, trailers. I have
+                            written in different genres: from country music to neoclassics and orchestration. I work
+                            both "for the picture" and "for the text". I will be happy to bring sounds to life and write
+                            a musical story for your project, whether it's a mobile game about a stone or a serious
+                            dramatic project.
+                            <br />
+                            <br />
+                            Also, I think it's worth adding that I named the studio after my cat. :)</span>
+                        <span class="rus-text lang-hide">
+                            Приветствую! Меня зовут Андриас, и я наполняю тишину звуками и музыкой. Создаю композиции
+                            под любую задачу, в каждую вкладывая частичку души, старания и любви к своему делу. Имею
+                            опыт в написании музыкального сопровождения для рекламы, игр, документальных фильмов,
+                            трейлеров. Я писал в различных жанрах: от кантри до неоклассики и оркестровки. Работаю как
+                            "под картинку", так и "под текст". С радостью возьмусь оживить звуками, а так же написать
+                            музыкальную историю для Вашего проекта, будь то мобильная игра про камень или серьезный
+                            драматический проект.
+                            <br />
+                            <br />
+                            А так же, думаю, стоит добавить, что студию я назвал в честь моего кота :)
+
+                        </span>
+
+
+                    </div>
+                    <hr class="text-center mt-4" color="white" width="300px">
+                    <div class="about__counter-inner pt-3 col-lg-12 d-flex justify-content-between">
+                        <div class="counter-item-1">
+                            <div class="counter__inner d-flex flex-column align-items-center">
+                                <div class="counter-wrapper d-flex">
+                                    <img src="/img/icon-1.png" alt="" class="wow flipInX" data-wow-delay="0.3s">
+                                    <div class="number-counter"><span class="boo">5</span></div>
+                                </div>
+                                <div class="counter-title">
+                                    <span class="eng-text">Work experience</span>
+                                    <span class="rus-text lang-hide">Лет в работе</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="counter-item-2">
+                            <div class="counter__inner d-flex flex-column align-items-center">
+                                <div class="counter-wrapper d-flex">
+                                    <img src="/img/icon-2.png" alt="" class="wow flipInX" data-wow-delay="0.5s">
+                                    <div class="number-counter"> <span class="boo">24</span></div>
+                                </div>
+                                <div class="counter-title">
+                                    <span class="eng-text">Completed projects</span>
+                                    <span class="rus-text lang-hide">Завершено проектов</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="counter-item-3">
+                            <div class="counter__inner d-flex flex-column align-items-center">
+                                <div class="counter-wrapper d-flex">
+                                    <img src="/img/icon-3.png" alt="" class="wow flipInX" data-wow-delay="0.7s">
+                                    <div class="number-counter"> <span class="boo">238</span> </div>
+                                </div>
+                                <div class="counter-title">
+                                    <span class="eng-text">Energy drinks</span>
+                                    <span class="rus-text lang-hide">Выпито энергетиков</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section id="4" class="service col-lg-12">
+        <div class="service__title text-center">
+            <span class="eng-text">service</span>
+            <span class="rus-text lang-hide">услуги</span>
+        </div>
+        <div class="container">
+            <div class="row justify-content-around srivice__inner">
+                <div class="srivice__item d-flex flex-column align-items-center col-lg-5 text-center wow fadeInUp"
+                    data-wow-delay="0.8s">
+                    <a href="#6">
+                        <div class="service__icon">
+                            <img src="/img/service-icon-1.png" alt="">
+                            <img src="/img/service-icon-1-hover.png" alt="">
+                        </div>
+                        <div class="service__sup-title text-center">
+                            <span class="eng-text">sound design</span>
+                            <span class="rus-text lang-hide">саунд дизайн</span>
+                        </div>
+                        <hr width="160px" color="#353535">
+                        <div class="service__text text-left">
+                            <span class="eng-text">
+                                &#8226; <b>Using sound and game engines:</b></br>
+                                I use Wwise and Unity in my work.</br>
+                                </br>&#8226; <b>Recording sounds:</b></br>
+                                I use professional recording equipment.</br>
+                                </br>&#8226; <b>Creativity:</b>
+                                </br>No matter how difficult the task is, we can do it together!</br>
+                                </br>&#8226; <b>Game experience:</b>
+                                </br>Extensive gaming experience helps me in my work.
+                            </span>
+                            <span class="rus-text lang-hide">
+                                &#8226; <b>Использование звуковых и игровых движков:</b>
+                                В работе я использую Wwise и Unity.</br>
+                                </br>&#8226; <b>Запись звуков:</b></br>
+                                Я использую профессиональное оборудование для записи.</br>
+                                </br>&#8226; <b>Творческий подход:</b>
+                                </br>Как бы не была сложна задача — вместе мы с ней справимся!</br>
+                                </br>&#8226; <b>Игровой опыт:</b>
+                                </br>Обширный игровой опыт помогает мне в работе.
+                            </span>
+                        </div>
+                    </a>
+                </div>
+                <div class="srivice__item d-flex flex-column align-items-center col-lg-5 text-center wow fadeInUp"
+                    data-wow-delay="1.2s">
+                    <a href="#6">
+                        <div class="service__icon">
+                            <img src="/img/service-icon-2.png" alt="">
+                            <img src="/img/service-icon-2-hover.png" alt="">
+                        </div>
+                        <div class="service__sup-title">
+                            <span class="eng-text">making music</span>
+                            <span class="rus-text lang-hide">создание музыки</span>
+                        </div>
+                        <hr width="160px" color="#353535">
+                        <div class="service__text text-left">
+                            <span class="eng-text">
+                                &#8226; <b>Musical experience:</b></br>
+                                I have been in the music trade for over five years.</br>
+                                </br>&#8226; <b>Understanding:</b></br>
+                                I always try to get to the point, put my soul into it and convey the right
+                                emotions.</br>
+                                </br>&#8226; <b>Live instruments:</b>
+                                </br>Ability to record live instruments, from ethnic to orchestra. If, of course,
+                                your budget allows it.</br>
+                                </br>&#8226; <b>The desire to learn:</b>
+                                </br>I am always open to new things and always evolving.
+                            </span>
+                            <span class="rus-text lang-hide">
+                                &#8226; <b>Музыкальный опыт: </b>
+                                </br>Я занимаюсь музыкальным ремеслом больше пяти лет.</br>
+                                </br>&#8226; <b>Понимание:</b></br>
+                                Всегда стараюсь попасть в точку, вложить душу и передать нужные эмоции.
+                                </br>
+                                </br>&#8226; <b>Живые инструменты:</b>
+                                </br>Возможность записи живых инструментов, от этнических и до оркестра. Если, конечно,
+                                это позволяет ваш бюджет.
+                                </br>
+                                </br>&#8226; <b>Желание учиться:</b>
+                                </br>Я всегда открыт к новому и всегда нахожусь в развитии.
+                            </span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tools">
+        <canvas id="nokey" width="1920" height="600"></canvas>
+        <div class=" text-center white-title mb-4">
+            <span class="eng-text">i use</span>
+            <span class="rus-text lang-hide">я использую</span>
+        </div>
+        <div class="container">
+            <div class="row pt-4 text-center">
+                <div class="tools__item col-lg-4">
+                    <img src="/img/tools-img-1.png" alt="">
+                </div>
+                <div class="tools__item col-lg-4 pl-5">
+                    <img src="/img/tools-img-2.png" alt="">
+                </div>
+                <div class="tools__item col-lg-4">
+                    <img src="/img/tools-img-3.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="5" class="testimonials">
+        <div class="container">
+            <div class="service__title text-center">
+                <span class="eng-text">testimonials</span>
+                <span class="rus-text lang-hide">отзывы</span>
+            </div>
+            <div class="slider">
+                <div class="slider__item d-flex flex-column align-items-center col-lg-4 text-center">
+                    <a class="" href="https://so-edinenie.org/blagotvoritelyam" target="_blank">
+                        <img class="offset-lg-1 offset-1" src="/img/studio-2.png" />
+                        <div class="slider__text">
+                            <span class="eng-text">Many times we ordered music here, and each time we were happy and
+                                satisfied. Andrias works with different genres, each time guessing exactly the right
+                                mood
+                                and rhythm. Thank you and my sparkling recommendation!</span>
+                            <span class="rus-text lang-hide">Много раз заказывали музыку здесь, и каждый раз оставались
+                                довольны и счастливы. Andrias работает с разными жанрами, каждый раз точно угадывая
+                                необходимое настроение и ритм. Спасибо и мои искрение рекомендации!
+                            </span>
+                        </div>
+                        <div class="slider__autor">
+                            <span class="eng-text">«Со-единение»</span>
+                            <span class="rus-text lang-hide">«Со-единение»</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="slider__item d-flex flex-column align-items-center col-lg-4 text-center">
+                    <a class="" href="https://vk.com/windrose_fieriagold" target="_blank">
+                        <img class="offset-lg-1 offset-1" src="/img/f-7IxXfMImY.jpg" />
+                        <div class="slider__text text-center">
+                            <span class="eng-text">Andrias was working on the sounds for our game. I want to note the
+                                quick work and attention to detail. We needed the original and detailed sounds of
+                                steampunk weapons and he did it.</span>
+                            <span class="rus-text lang-hide">Andrias работал над звуками для нашей игры. Хочу отметить
+                                быструю работу и внимание к деталям. Нам нужны были оригинальные и детальные звуки
+                                стимпанк-оружия, и он это сделал.</span>
+                        </div>
+                        <div class="slider__autor">
+                            <span class="eng-text">«FieriaGold Studio»</span>
+                            <span class="rus-text lang-hide">«FieriaGold Studio»</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="slider__item d-flex flex-column align-items-center col-lg-4 text-center">
+                    <a class="" href="https://vk.com/divgn_games" target="_blank">
+                        <img class="offset-lg-1 offset-1" src="/img/IT35lEg_hJQ.png" />
+                        <div class="slider__text text-center">
+                            <span class="eng-text">Andrias felt the atmosphere of our game, took into account
+                                the wishes, added a piece of himself, and the result was a great track that is
+                                remembered from the first time. Him also did it faster than we agreed. In general,
+                                thanks a lot from our team, we will work on the soundtrack with him.</span>
+                            <span class="rus-text lang-hide">Попадание с первого раза. Прочувствовал атмосферу нашей
+                                игры, учел
+                                пожелания, добавил частичку себя, и в итоге получился пушечный трек, который
+                                запоминается с первого раза. Так же сделал быстрее, чем договаривались. В общем, спасибо
+                                огромное от нашей команды, работать дальше над саундтреком 100% будем с ним.</span>
+                        </div>
+                        <div class="slider__autor">
+                            <span class="eng-text">«DIVAN Studio»</span>
+                            <span class="rus-text lang-hide">«DIVAN Studio»</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="slider__item d-flex flex-column align-items-center col-lg-4 text-center">
+                    <a class="" href="https://www.patreon.com/shadow_portal" target="_blank">
+                        <img class="offset-lg-1 offset-1" src="/img/studio.png" />
+                        <div class="slider__text text-center">
+                            <span class="eng-text">Not only does he write music that's amazing, but he also fully
+                                conveys
+                                the right mood, always listens to the customer and creates just unique and most
+                                importantly
+                                high-quality, soulful music.
+                                If you want to revive your game or just your creation, Andrias is the one you
+                                need.</span>
+                            <span class="rus-text lang-hide">Мало того, что пишет музыку он удивительно, так еще
+                                полностью
+                                передает нужное настроение, всегда прислушивается к заказчику и создает просто
+                                уникальную и
+                                самое главное качественную, душевную музыку.</span>
+                        </div>
+                        <div class="slider__autor">
+                            <span class="eng-text">«Shadow Portal Studio»</span>
+                            <span class="rus-text lang-hide">«Shadow Portal Studio»</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="6" class="contacts">
+        <div class="container">
+            <div class=" text-center white-title mb-4">
+                <span class="eng-text">contacts</span>
+                <span class="rus-text lang-hide">контакты</span>
+            </div>
+            <div class="row mt-5">
+                <form enctype="multipart/form-data" method="post" class="col-lg-6" id="basic">
+                    <div class="input-inner">
+                        <input name="email" type="email" id="InputEmail" placeholder="Type your mail.." required>
+                        <textarea name='text' id="InputText" class="mt-3" rows="5" cols="45" id='text'
+                            placeholder="Type your message.." required></textarea>
+                        <div class="button-inner d-flex justify-content-between">
+                            <button class="button-submit pr-3 wow wobble" data-wow-delay="2.8s">
+                                <span class="eng-text">Send</span>
+                                <span class="rus-text lang-hide">Отправить</span>
+                                <img src="/icons/button-icon-arrow.png" alt="">
+                            </button>
+                            <input type="hidden" id="token" name="token"> </div>
+                    </div>
+                </form>
+                <div class="contacts__inner col-lg-5">
+                    <div class="contacts__text text-left">
+                        <span class="eng-text">Write to me if you need an expert to create a sound picture and we will
+                            make your projects better together.
+                            Fill in this form or contact any of the above contacts :)</span>
+                        <span class="rus-text lang-hide"> Напишите мне, если вам требуется специалист для создания
+                            звуковой картины и мы вместе сделаем ваши проекты лучше.</br>
+                            Заполните эту форму или обратитесь в любой из указанных контактов :)
+                        </span>
+
+                    </div>
+                    <a href="mailto:andriasbartlettpb@gmail.com">
+                        <div class="contacts__mail pb-2 "><span>andriasbartlettpb@gmail.com</span></div>
+                    </a>
+                    <a href="tel:89180331340">
+                        <div class="contacts__number pb-2"><span>8 (918) 033 - 13 - 40</span></div>
+                    </a>
+                    <div class="social-icons-inner1 col-lg-10 mt-3 d-flex justify-content-between">
+                        <a href="https://join.skype.com/invite/ntMLraMbVbUI" target="_blank"> </a>
+                        <a href="https://www.facebook.com/andriasbartlett" target="_blank"> </a>
+                        <a href="https://www.youtube.com/c/BlackCatStudioMusic" target="_blank"> </a>
+                        <a href="https://soundcloud.com/blackcatmusicstudio" target="_blank"> </a>
+                        <a href="https://vk.com/blackcatmusicstudio" target="_blank"> </a>
+                        <a href="https://www.instagram.com/black_cat_music_studio" target="_blank"> </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        © 2020 Template by <a href="https://vk.com/id287564211" target="_blank">Timofey Mikutovsky</a>. All rights
+        reserved.
+    </footer>
+
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" id="btn" data-toggle="modal" data-target="#exampleModalCenter"
+        style="display: none;">
+        Launch demo modal
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header d-flex flex-column align-items-center text-center">
+                    <h5 class="modal-title" id="exampleModalLongTitle">
+                        Благодарю Вас за отправку сообщения!</br>
+                        Я свяжусь с Вами в ближайшее время.</h5>
+                    </button> <button type="button" class="button-submit" id="btn-modal"
+                        data-dismiss="modal">Понял</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="/js/lib/bootstrap.min.js"></script>
+    <script src="/js/lib/jquery.counterup.min.js"></script>
+    <script src="/js/lib/wow.min.js"></script>
+    <script src="/js/lib/isotope.pkgd.min.js"></script>
+    <script src="/js/lib/slick.min.js"></script>
+    <script src="/js/canvasMainBalls.js"></script>
+    <script src="/js/langSwitcher.js"></script>
+    <script src="/js/main.js"></script>
+    <script src="/js/isotopeInit.js"></script>
+    <script src="/js/captchaHandler.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js?render=6Ldq39UZAAAAAFnBBkcRYbhoXZhhRF0ndtyuojTo"></script>
+
+
+    <script>
+        jQuery(document).ready(function ($) {
+            $('.boo').counterUp({
+                delay: 5,
+                time: 5000
+            });
+        });
+    </script>
+
+    <script>
+        var wow = new WOW;
+        wow.init();
+    </script>
+</body>
+
+</html>
