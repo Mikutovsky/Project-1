@@ -320,147 +320,19 @@ body {
     -webkit-animation-delay: 400ms;
 }
 
-.social-icons-inner {
-    width: 300px;
+.social-icons-inner a span{
+    font-size: 26px;
+    color: white;
+    transition-duration: 0.5s;
 }
 
-.social-icons-inner a,
-.social-icons-inner1 a {
-    transition-duration: .4s;
+.social-icons-inner a span:hover, .social-icons--black a span:hover{
+    color: #673ab7;
 }
 
-.social-icons-inner a:first-child {
-    background-image: url(/icons/skype-black.png);
-    width: 22px;
-    height: 22px;
+.social-icons--black a span{
+    color: #363636;
 }
-
-.social-icons-inner a:hover:first-child {
-    background-image: url(/icons/skype-hover.png);
-}
-
-.social-icons-inner a:nth-child(2) {
-    background-image: url(/icons/facebook-black.png);
-    width: 22px;
-    height: 22px;
-}
-
-.social-icons-inner a:hover:nth-child(2) {
-    background-image: url(/icons/facebook-hover.png);
-}
-
-.social-icons-inner a:nth-child(3) {
-    background-image: url(/icons/youtube-black.png);
-    width: 31px;
-    height: 22px;
-}
-
-.social-icons-inner a:hover:nth-child(3) {
-    background-image: url(/icons/youtube-hover.png);
-}
-
-.social-icons-inner a:nth-child(4) {
-    background-image: url(/icons/soundcloud-black.png);
-    width: 31px;
-    height: 18px;
-}
-
-.social-icons-inner a:hover:nth-child(4) {
-    background-image: url(/icons/soundcloud-hover.png);
-}
-
-.social-icons-inner a:nth-child(5) {
-    background-image: url(/icons/vk-black.png);
-    width: 31px;
-    height: 18px;
-}
-
-.social-icons-inner a:hover:nth-child(5) {
-    background-image: url(/icons/vk-hover.png);
-}
-
-.social-icons-inner a:last-child {
-    background-image: url(/icons/instagram-black.png);
-    width: 22px;
-    height: 22px;
-}
-
-.social-icons-inner a:hover:last-child {
-    background-image: url(/icons/instagram-hover.png);
-}
-
-.social-icons-inner a img:hover {
-    padding-right: 2px;
-    width: 22px;
-    height: 22px;
-}
-
-.social-icons-inner1 a:first-child {
-    background-image: url(/icons/skype-white.png);
-    width: 22px;
-    height: 22px;
-}
-
-.social-icons-inner1 a:hover:first-child {
-    background-image: url(/icons/skype-hover.png);
-}
-
-.social-icons-inner1 a:nth-child(2) {
-    background-image: url(/icons/facebook-white.png);
-    width: 22px;
-    height: 22px;
-}
-
-.social-icons-inner1 a:hover:nth-child(2) {
-    background-image: url(/icons/facebook-hover.png);
-}
-
-.social-icons-inner1 a:nth-child(3) {
-    background-image: url(/icons/youtube-white.png);
-    width: 31px;
-    height: 22px;
-}
-
-.social-icons-inner1 a:hover:nth-child(3) {
-    background-image: url(/icons/youtube-hover.png);
-}
-
-.social-icons-inner1 a:nth-child(4) {
-    background-image: url(/icons/soundcloud-white.png);
-    width: 31px;
-    height: 18px;
-}
-
-.social-icons-inner1 a:hover:nth-child(4) {
-    background-image: url(/icons/soundcloud-hover.png);
-}
-
-.social-icons-inner1 a:nth-child(5) {
-    background-image: url(/icons/vk-white.png);
-    width: 31px;
-    height: 18px;
-}
-
-.social-icons-inner1 a:hover:nth-child(5) {
-    background-image: url(/icons/vk-hover.png);
-}
-
-.social-icons-inner1 a:last-child {
-    background-image: url(/icons/instagram-white.png);
-    width: 22px;
-    height: 22px;
-}
-
-.social-icons-inner1 a:hover:last-child {
-    background-image: url(/icons/instagram-hover.png);
-}
-
-.social-icons-inner1 a img:hover {
-    padding-right: 2px;
-    width: 22px;
-    height: 22px;
-}
-
 
 /*стиль для скролл бара*/
 ::-webkit-scrollbar {
@@ -917,9 +789,22 @@ textarea {
 
 .contacts__mail,
 .contacts__number {
-    font-size: 24px;
     color: white;
     font-weight: 700;
+}
+
+.contacts__mail span, .contacts__number  {
+    border-bottom: 1px solid rgba(209, 209, 209, 0.26);
+    transition: 0.3s;
+}
+
+.contacts__mail span:hover, .contacts__number:hover{
+    border-bottom: 1px solid white;
+}
+
+.icon-phone--size{
+    color: white;
+    font-size: 28px;
 }
 
 .contacts__mail::before {
@@ -927,23 +812,14 @@ textarea {
     padding-right: 15px;
 }
 
-.contacts__number::before {
-    content: url(/icons/phone.png);
-    padding-right: 15px;
+.contacts__inner {
+    font-size: 24px;
 }
 
-.contacts__inner a span {
-    border-bottom: 1px solid rgba(209, 209, 209, 0.26);
-    transition-duration: .4s;
-}
-
-.contacts__inner a span:hover {
-    border-bottom: 1px solid rgba(209, 209, 209, 0.836);
-}
-
-.contacts__inner a:hover {
+.contacts__inner a{
     text-decoration: none;
 }
+
 
 footer {
     color: #e8e8e8;
